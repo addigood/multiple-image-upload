@@ -65,7 +65,7 @@ if(isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST"){
 		<!-- Multiple file upload html form-->
 		<form action="" method="post" enctype="multipart/form-data">
 			<!--<div id="filediv"><input type="file" name="files[]" multiple="multiple"></div>-->
-			<div id="filediv"><input type="file" name="files[]" id="file">
+			<div id="filediv"><input type="file" name="files[]" id="file"></div>
 			<input type="button" id="add_more" class="upload" value="Add More Files"/>
 			<input type="submit" value="Upload">
 		</form>
